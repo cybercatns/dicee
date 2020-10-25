@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Dicee</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
 
   </head>
@@ -12,20 +12,23 @@
     <div class="container">
       <h1>Refresh Me</h1>
 
-      <div class="dice">
+      <div class="player1Dice dice">
         <p>Player 1</p>
-        <img class="img1" src="">
+        <img id="p1Img" class="img" src="images/dice1.png" >
       </div>
 
-      <div class="dice">
+      <div class="player2Dice dice">
         <p>Player 2</p>
-        <img class="img2" src="">
+        <img id="p2Img" class="img" src="images/dice2.png" >
       </div>
 
     </div>
 
 
   </body>
+  <script src="js/dicee.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
 
   <footer>
     www 🎲 App Brewery 🎲 com
